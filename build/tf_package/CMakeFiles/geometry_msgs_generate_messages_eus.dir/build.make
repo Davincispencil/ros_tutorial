@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sklir/ZHANGYan/ros_tutorial/src
+CMAKE_SOURCE_DIR = /home/yan/ros_tutorial/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sklir/ZHANGYan/ros_tutorial/build
+CMAKE_BINARY_DIR = /home/yan/ros_tutorial/build
 
 # Utility rule file for geometry_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ tf_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build: geometry_ms
 .PHONY : tf_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 
 tf_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build/tf_package && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/yan/ros_tutorial/build/tf_package && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : tf_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 tf_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sklir/ZHANGYan/ros_tutorial/src /home/sklir/ZHANGYan/ros_tutorial/src/tf_package /home/sklir/ZHANGYan/ros_tutorial/build /home/sklir/ZHANGYan/ros_tutorial/build/tf_package /home/sklir/ZHANGYan/ros_tutorial/build/tf_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yan/ros_tutorial/src /home/yan/ros_tutorial/src/tf_package /home/yan/ros_tutorial/build /home/yan/ros_tutorial/build/tf_package /home/yan/ros_tutorial/build/tf_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tf_package/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 

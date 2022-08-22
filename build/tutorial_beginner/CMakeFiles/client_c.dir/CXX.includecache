@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sklir/ZHANGYan/ros_tutorial/devel/include/tutorial_beginner/nums.h
+/home/yan/ros_tutorial/devel/include/tutorial_beginner/nums.h
 ros/service_traits.h
 -
 tutorial_beginner/numsRequest.h
@@ -14,7 +14,7 @@ tutorial_beginner/numsRequest.h
 tutorial_beginner/numsResponse.h
 -
 
-/home/sklir/ZHANGYan/ros_tutorial/devel/include/tutorial_beginner/numsRequest.h
+/home/yan/ros_tutorial/devel/include/tutorial_beginner/numsRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/sklir/ZHANGYan/ros_tutorial/devel/include/tutorial_beginner/numsResponse.h
+/home/yan/ros_tutorial/devel/include/tutorial_beginner/numsResponse.h
 string
 -
 vector
@@ -46,13 +46,13 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/client_c.cpp
+/home/yan/ros_tutorial/src/tutorial_beginner/src/client_c.cpp
 iostream
 -
 ros/ros.h
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/ros/ros.h
+/home/yan/ros_tutorial/src/tutorial_beginner/src/ros/ros.h
 tutorial_beginner/nums.h
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/tutorial_beginner/nums.h
+/home/yan/ros_tutorial/src/tutorial_beginner/src/tutorial_beginner/nums.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h

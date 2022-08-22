@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sklir/ZHANGYan/ros_tutorial/src
+CMAKE_SOURCE_DIR = /home/yan/ros_tutorial/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sklir/ZHANGYan/ros_tutorial/build
+CMAKE_BINARY_DIR = /home/yan/ros_tutorial/build
 
 # Utility rule file for tutorial_advanced_genlisp.
 
@@ -63,10 +63,10 @@ tutorial_advanced/CMakeFiles/tutorial_advanced_genlisp.dir/build: tutorial_advan
 .PHONY : tutorial_advanced/CMakeFiles/tutorial_advanced_genlisp.dir/build
 
 tutorial_advanced/CMakeFiles/tutorial_advanced_genlisp.dir/clean:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_advanced && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_advanced_genlisp.dir/cmake_clean.cmake
+	cd /home/yan/ros_tutorial/build/tutorial_advanced && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_advanced_genlisp.dir/cmake_clean.cmake
 .PHONY : tutorial_advanced/CMakeFiles/tutorial_advanced_genlisp.dir/clean
 
 tutorial_advanced/CMakeFiles/tutorial_advanced_genlisp.dir/depend:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sklir/ZHANGYan/ros_tutorial/src /home/sklir/ZHANGYan/ros_tutorial/src/tutorial_advanced /home/sklir/ZHANGYan/ros_tutorial/build /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_advanced /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_advanced/CMakeFiles/tutorial_advanced_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yan/ros_tutorial/src /home/yan/ros_tutorial/src/tutorial_advanced /home/yan/ros_tutorial/build /home/yan/ros_tutorial/build/tutorial_advanced /home/yan/ros_tutorial/build/tutorial_advanced/CMakeFiles/tutorial_advanced_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorial_advanced/CMakeFiles/tutorial_advanced_genlisp.dir/depend
 

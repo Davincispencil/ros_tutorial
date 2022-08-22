@@ -1,8 +1,8 @@
-# Install script for directory: /home/sklir/ZHANGYan/ros_tutorial/src/dynamic_config
+# Install script for directory: /home/yan/ros_tutorial/src/dynamic_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sklir/ZHANGYan/ros_tutorial/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yan/ros_tutorial/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,33 +33,33 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dynamic_config" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/devel/include/dynamic_config/drConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dynamic_config" TYPE FILE FILES "/home/yan/ros_tutorial/devel/include/dynamic_config/drConfig.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/dynamic_config" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/devel/lib/python3/dist-packages/dynamic_config/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/dynamic_config" TYPE FILE FILES "/home/yan/ros_tutorial/devel/lib/python2.7/dist-packages/dynamic_config/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/home/sklir/python3_ws/rl_env/bin/python" -m compileall "/home/sklir/ZHANGYan/ros_tutorial/devel/lib/python3/dist-packages/dynamic_config/cfg")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/yan/ros_tutorial/devel/lib/python2.7/dist-packages/dynamic_config/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/dynamic_config" TYPE DIRECTORY FILES "/home/sklir/ZHANGYan/ros_tutorial/devel/lib/python3/dist-packages/dynamic_config/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/dynamic_config" TYPE DIRECTORY FILES "/home/yan/ros_tutorial/devel/lib/python2.7/dist-packages/dynamic_config/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/build/dynamic_config/catkin_generated/installspace/dynamic_config.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yan/ros_tutorial/build/dynamic_config/catkin_generated/installspace/dynamic_config.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamic_config/cmake" TYPE FILE FILES
-    "/home/sklir/ZHANGYan/ros_tutorial/build/dynamic_config/catkin_generated/installspace/dynamic_configConfig.cmake"
-    "/home/sklir/ZHANGYan/ros_tutorial/build/dynamic_config/catkin_generated/installspace/dynamic_configConfig-version.cmake"
+    "/home/yan/ros_tutorial/build/dynamic_config/catkin_generated/installspace/dynamic_configConfig.cmake"
+    "/home/yan/ros_tutorial/build/dynamic_config/catkin_generated/installspace/dynamic_configConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamic_config" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/src/dynamic_config/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamic_config" TYPE FILE FILES "/home/yan/ros_tutorial/src/dynamic_config/package.xml")
 endif()
 

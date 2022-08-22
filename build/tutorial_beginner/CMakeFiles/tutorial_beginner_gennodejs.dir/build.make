@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sklir/ZHANGYan/ros_tutorial/src
+CMAKE_SOURCE_DIR = /home/yan/ros_tutorial/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sklir/ZHANGYan/ros_tutorial/build
+CMAKE_BINARY_DIR = /home/yan/ros_tutorial/build
 
 # Utility rule file for tutorial_beginner_gennodejs.
 
@@ -63,10 +63,10 @@ tutorial_beginner/CMakeFiles/tutorial_beginner_gennodejs.dir/build: tutorial_beg
 .PHONY : tutorial_beginner/CMakeFiles/tutorial_beginner_gennodejs.dir/build
 
 tutorial_beginner/CMakeFiles/tutorial_beginner_gennodejs.dir/clean:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_beginner_gennodejs.dir/cmake_clean.cmake
+	cd /home/yan/ros_tutorial/build/tutorial_beginner && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_beginner_gennodejs.dir/cmake_clean.cmake
 .PHONY : tutorial_beginner/CMakeFiles/tutorial_beginner_gennodejs.dir/clean
 
 tutorial_beginner/CMakeFiles/tutorial_beginner_gennodejs.dir/depend:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sklir/ZHANGYan/ros_tutorial/src /home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner /home/sklir/ZHANGYan/ros_tutorial/build /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/CMakeFiles/tutorial_beginner_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yan/ros_tutorial/src /home/yan/ros_tutorial/src/tutorial_beginner /home/yan/ros_tutorial/build /home/yan/ros_tutorial/build/tutorial_beginner /home/yan/ros_tutorial/build/tutorial_beginner/CMakeFiles/tutorial_beginner_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorial_beginner/CMakeFiles/tutorial_beginner_gennodejs.dir/depend
 

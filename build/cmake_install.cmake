@@ -1,8 +1,8 @@
-# Install script for directory: /home/sklir/ZHANGYan/ros_tutorial/src
+# Install script for directory: /home/yan/ros_tutorial/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sklir/ZHANGYan/ros_tutorial/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yan/ros_tutorial/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,95 +44,96 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sklir/ZHANGYan/ros_tutorial/install/_setup_util.py")
+   "/home/yan/ros_tutorial/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sklir/ZHANGYan/ros_tutorial/install" TYPE PROGRAM FILES "/home/sklir/ZHANGYan/ros_tutorial/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/yan/ros_tutorial/install" TYPE PROGRAM FILES "/home/yan/ros_tutorial/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sklir/ZHANGYan/ros_tutorial/install/env.sh")
+   "/home/yan/ros_tutorial/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sklir/ZHANGYan/ros_tutorial/install" TYPE PROGRAM FILES "/home/sklir/ZHANGYan/ros_tutorial/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/yan/ros_tutorial/install" TYPE PROGRAM FILES "/home/yan/ros_tutorial/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sklir/ZHANGYan/ros_tutorial/install/setup.bash;/home/sklir/ZHANGYan/ros_tutorial/install/local_setup.bash")
+   "/home/yan/ros_tutorial/install/setup.bash;/home/yan/ros_tutorial/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sklir/ZHANGYan/ros_tutorial/install" TYPE FILE FILES
-    "/home/sklir/ZHANGYan/ros_tutorial/build/catkin_generated/installspace/setup.bash"
-    "/home/sklir/ZHANGYan/ros_tutorial/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/yan/ros_tutorial/install" TYPE FILE FILES
+    "/home/yan/ros_tutorial/build/catkin_generated/installspace/setup.bash"
+    "/home/yan/ros_tutorial/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sklir/ZHANGYan/ros_tutorial/install/setup.sh;/home/sklir/ZHANGYan/ros_tutorial/install/local_setup.sh")
+   "/home/yan/ros_tutorial/install/setup.sh;/home/yan/ros_tutorial/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sklir/ZHANGYan/ros_tutorial/install" TYPE FILE FILES
-    "/home/sklir/ZHANGYan/ros_tutorial/build/catkin_generated/installspace/setup.sh"
-    "/home/sklir/ZHANGYan/ros_tutorial/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/yan/ros_tutorial/install" TYPE FILE FILES
+    "/home/yan/ros_tutorial/build/catkin_generated/installspace/setup.sh"
+    "/home/yan/ros_tutorial/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sklir/ZHANGYan/ros_tutorial/install/setup.zsh;/home/sklir/ZHANGYan/ros_tutorial/install/local_setup.zsh")
+   "/home/yan/ros_tutorial/install/setup.zsh;/home/yan/ros_tutorial/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sklir/ZHANGYan/ros_tutorial/install" TYPE FILE FILES
-    "/home/sklir/ZHANGYan/ros_tutorial/build/catkin_generated/installspace/setup.zsh"
-    "/home/sklir/ZHANGYan/ros_tutorial/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/yan/ros_tutorial/install" TYPE FILE FILES
+    "/home/yan/ros_tutorial/build/catkin_generated/installspace/setup.zsh"
+    "/home/yan/ros_tutorial/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sklir/ZHANGYan/ros_tutorial/install/.rosinstall")
+   "/home/yan/ros_tutorial/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sklir/ZHANGYan/ros_tutorial/install" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/yan/ros_tutorial/install" TYPE FILE FILES "/home/yan/ros_tutorial/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sklir/ZHANGYan/ros_tutorial/build/gtest/cmake_install.cmake")
-  include("/home/sklir/ZHANGYan/ros_tutorial/build/meta_package/cmake_install.cmake")
-  include("/home/sklir/ZHANGYan/ros_tutorial/build/plugin/cmake_install.cmake")
-  include("/home/sklir/ZHANGYan/ros_tutorial/build/dynamic_config/cmake_install.cmake")
-  include("/home/sklir/ZHANGYan/ros_tutorial/build/tf_package/cmake_install.cmake")
-  include("/home/sklir/ZHANGYan/ros_tutorial/build/test_launch/cmake_install.cmake")
-  include("/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_advanced/cmake_install.cmake")
-  include("/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/cmake_install.cmake")
+  include("/home/yan/ros_tutorial/build/gtest/cmake_install.cmake")
+  include("/home/yan/ros_tutorial/build/meta_package/cmake_install.cmake")
+  include("/home/yan/ros_tutorial/build/plugin/cmake_install.cmake")
+  include("/home/yan/ros_tutorial/build/dynamic_config/cmake_install.cmake")
+  include("/home/yan/ros_tutorial/build/tf_package/cmake_install.cmake")
+  include("/home/yan/ros_tutorial/build/tutorial_advanced/cmake_install.cmake")
+  include("/home/yan/ros_tutorial/build/tutorial_beginner/cmake_install.cmake")
+  include("/home/yan/ros_tutorial/build/urdf_gazebo/cmake_install.cmake")
+  include("/home/yan/ros_tutorial/build/urdf_package/cmake_install.cmake")
 
 endif()
 
@@ -144,5 +145,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sklir/ZHANGYan/ros_tutorial/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yan/ros_tutorial/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

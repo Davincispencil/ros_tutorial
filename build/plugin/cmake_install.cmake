@@ -1,8 +1,8 @@
-# Install script for directory: /home/sklir/ZHANGYan/ros_tutorial/src/plugin
+# Install script for directory: /home/yan/ros_tutorial/src/plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sklir/ZHANGYan/ros_tutorial/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yan/ros_tutorial/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/build/plugin/catkin_generated/installspace/plugin.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yan/ros_tutorial/build/plugin/catkin_generated/installspace/plugin.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plugin/cmake" TYPE FILE FILES
-    "/home/sklir/ZHANGYan/ros_tutorial/build/plugin/catkin_generated/installspace/pluginConfig.cmake"
-    "/home/sklir/ZHANGYan/ros_tutorial/build/plugin/catkin_generated/installspace/pluginConfig-version.cmake"
+    "/home/yan/ros_tutorial/build/plugin/catkin_generated/installspace/pluginConfig.cmake"
+    "/home/yan/ros_tutorial/build/plugin/catkin_generated/installspace/pluginConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plugin" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/src/plugin/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plugin" TYPE FILE FILES "/home/yan/ros_tutorial/src/plugin/package.xml")
 endif()
 

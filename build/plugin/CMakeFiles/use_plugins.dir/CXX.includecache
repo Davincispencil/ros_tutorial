@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/include/plugin/dbx_base.h
+/home/yan/ros_tutorial/src/plugin/include/plugin/dbx_base.h
 
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/src/use_plugins.cpp
+/home/yan/ros_tutorial/src/plugin/src/use_plugins.cpp
 ros/ros.h
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/src/ros/ros.h
+/home/yan/ros_tutorial/src/plugin/src/ros/ros.h
 pluginlib/class_loader.h
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/src/pluginlib/class_loader.h
+/home/yan/ros_tutorial/src/plugin/src/pluginlib/class_loader.h
 plugin/dbx_base.h
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/src/plugin/dbx_base.h
+/home/yan/ros_tutorial/src/plugin/src/plugin/dbx_base.h
 
 /opt/ros/kinetic/include/class_loader/./multi_library_class_loader.hpp
 boost/thread.hpp

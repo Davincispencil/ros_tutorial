@@ -1,8 +1,8 @@
-# Install script for directory: /home/sklir/ZHANGYan/ros_tutorial/src/meta_package
+# Install script for directory: /home/yan/ros_tutorial/src/meta_package
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sklir/ZHANGYan/ros_tutorial/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yan/ros_tutorial/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/meta_package" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/src/meta_package/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/meta_package" TYPE FILE FILES "/home/yan/ros_tutorial/src/meta_package/package.xml")
 endif()
 

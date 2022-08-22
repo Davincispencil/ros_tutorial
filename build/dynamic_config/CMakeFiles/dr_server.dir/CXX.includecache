@@ -6,31 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sklir/ZHANGYan/ros_tutorial/devel/include/dynamic_config/drConfig.h
-dynamic_reconfigure/config_tools.h
--
-limits
--
-ros/node_handle.h
--
-dynamic_reconfigure/ConfigDescription.h
--
-dynamic_reconfigure/ParamDescription.h
--
-dynamic_reconfigure/Group.h
--
-dynamic_reconfigure/config_init_mutex.h
--
-boost/any.hpp
--
-
-/home/sklir/ZHANGYan/ros_tutorial/src/dynamic_config/src/dr_server.cpp
+/home/yan/ros_tutorial/src/dynamic_config/src/dr_server.cpp
 ros/ros.h
-/home/sklir/ZHANGYan/ros_tutorial/src/dynamic_config/src/ros/ros.h
+/home/yan/ros_tutorial/src/dynamic_config/src/ros/ros.h
 dynamic_reconfigure/server.h
-/home/sklir/ZHANGYan/ros_tutorial/src/dynamic_config/src/dynamic_reconfigure/server.h
+/home/yan/ros_tutorial/src/dynamic_config/src/dynamic_reconfigure/server.h
 dynamic_config/drConfig.h
-/home/sklir/ZHANGYan/ros_tutorial/src/dynamic_config/src/dynamic_config/drConfig.h
+/home/yan/ros_tutorial/src/dynamic_config/src/dynamic_config/drConfig.h
 
 /opt/ros/kinetic/include/dynamic_reconfigure/BoolParameter.h
 string
@@ -238,20 +220,6 @@ ros/serialization.h
 ros/builtin_message_traits.h
 -
 ros/message_operations.h
--
-
-/opt/ros/kinetic/include/dynamic_reconfigure/config_init_mutex.h
-boost/thread/mutex.hpp
--
-
-/opt/ros/kinetic/include/dynamic_reconfigure/config_tools.h
-string
--
-vector
--
-dynamic_reconfigure/Config.h
--
-dynamic_reconfigure/Group.h
 -
 
 /opt/ros/kinetic/include/dynamic_reconfigure/server.h

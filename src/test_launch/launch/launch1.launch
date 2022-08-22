@@ -1,5 +1,0 @@
-<launch>
-    <node pkg="turtlesim" type="turtlesim_node" name="my_turtle" output="screen"/>
-    <node pkg="tutlesim" type="turtle_telop_key" name="my_key">
-
-</launch>

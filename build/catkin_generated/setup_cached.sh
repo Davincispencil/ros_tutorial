@@ -7,11 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/sklir/ZHANGYan/ros_tutorial/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/sklir/ZHANGYan/ros_tutorial/devel/lib:$LD_LIBRARY_PATH"
-export PATH="/opt/ros/kinetic/bin:/home/sklir/bin:/home/sklir/.local/bin:/home/sklir/anaconda3/condabin:/usr/local/cuda-9.0/bin:/home/sklir/bin:/home/sklir/.local/bin:/usr/local/cuda-9.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-export PKG_CONFIG_PATH="/home/sklir/ZHANGYan/ros_tutorial/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/sklir/ZHANGYan/ros_tutorial/build"
-export PYTHONPATH="/home/sklir/ZHANGYan/ros_tutorial/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/sklir/ZHANGYan/ros_tutorial/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/sklir/ZHANGYan/ros_tutorial/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/yan/ros_tutorial/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH='/home/yan/ros_tutorial/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/usr/local/lib:/home/yan/.mujoco/mujoco200/bin:/home/yan/.mujoco/mjpro150/bin:/usr/lib/nvidia-430'
+export PATH='/opt/ros/kinetic/bin:/home/yan/bin:/home/yan/.local/bin:/home/yan/bin:/home/yan/.local/bin:/home/yan/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PKG_CONFIG_PATH="/home/yan/ros_tutorial/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/yan/ros_tutorial/build'
+export PYTHONPATH="/home/yan/ros_tutorial/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROS_PACKAGE_PATH='/home/yan/ros_tutorial/src:/opt/ros/kinetic/share'

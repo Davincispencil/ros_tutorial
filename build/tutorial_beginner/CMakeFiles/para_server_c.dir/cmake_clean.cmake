@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/para_server_c.dir/src/para_server_c.cpp.o"
-  "/home/sklir/ZHANGYan/ros_tutorial/devel/lib/tutorial_beginner/para_server_c.pdb"
-  "/home/sklir/ZHANGYan/ros_tutorial/devel/lib/tutorial_beginner/para_server_c"
+  "/home/yan/ros_tutorial/devel/lib/tutorial_beginner/para_server_c.pdb"
+  "/home/yan/ros_tutorial/devel/lib/tutorial_beginner/para_server_c"
 )
 
 # Per-language clean rules from dependency scanning.

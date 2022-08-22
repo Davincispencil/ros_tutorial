@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/publisher_c.cpp
+/home/yan/ros_tutorial/src/tutorial_beginner/src/publisher_c.cpp
 iostream
 -
 ros/ros.h
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/ros/ros.h
+/home/yan/ros_tutorial/src/tutorial_beginner/src/ros/ros.h
 std_msgs/String.h
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/std_msgs/String.h
+/home/yan/ros_tutorial/src/tutorial_beginner/src/std_msgs/String.h
 sstream
 -
 

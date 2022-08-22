@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sklir/ZHANGYan/ros_tutorial/src/dynamic_config/src/dr_server.cpp" "/home/sklir/ZHANGYan/ros_tutorial/build/dynamic_config/CMakeFiles/dr_server.dir/src/dr_server.cpp.o"
+  "/home/yan/ros_tutorial/src/dynamic_config/src/dr_server.cpp" "/home/yan/ros_tutorial/build/dynamic_config/CMakeFiles/dr_server.dir/src/dr_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/sklir/ZHANGYan/ros_tutorial/devel/include"
+  "/home/yan/ros_tutorial/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

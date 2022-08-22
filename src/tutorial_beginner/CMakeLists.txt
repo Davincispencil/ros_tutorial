@@ -156,6 +156,9 @@ add_executable(turtle_publisher_c src/turtle_publisher_c.cpp)
 add_dependencies(publisher_person_c 
   ${PROJECT_NAME}_generate_messages_cpp)
 
+  add_dependencies(subscriber_person_c 
+  ${PROJECT_NAME}_generate_messages_cpp)
+
 add_dependencies(server_c
   ${PROJECT_NAME}_generate_messages_cpp)
 

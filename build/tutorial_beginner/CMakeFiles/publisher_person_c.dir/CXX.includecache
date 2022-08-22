@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sklir/ZHANGYan/ros_tutorial/devel/include/tutorial_beginner/person.h
+/home/yan/ros_tutorial/devel/include/tutorial_beginner/person.h
 string
 -
 vector
@@ -22,17 +22,17 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/publisher_person_c.cpp
+/home/yan/ros_tutorial/src/tutorial_beginner/src/publisher_person_c.cpp
 iostream
 -
 sstream
 -
 ros/ros.h
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/ros/ros.h
+/home/yan/ros_tutorial/src/tutorial_beginner/src/ros/ros.h
 std_msgs/String.h
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/std_msgs/String.h
+/home/yan/ros_tutorial/src/tutorial_beginner/src/std_msgs/String.h
 tutorial_beginner/person.h
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/tutorial_beginner/person.h
+/home/yan/ros_tutorial/src/tutorial_beginner/src/tutorial_beginner/person.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h

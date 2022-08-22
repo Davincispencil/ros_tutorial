@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sklir/ZHANGYan/ros_tutorial/src
+CMAKE_SOURCE_DIR = /home/yan/ros_tutorial/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sklir/ZHANGYan/ros_tutorial/build
+CMAKE_BINARY_DIR = /home/yan/ros_tutorial/build
 
 # Utility rule file for tutorial_beginner_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/progress.make
 
-tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs: /home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg/person.js
-tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs: /home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv/nums.js
+tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs: /home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg/person.js
+tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs: /home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv/nums.js
 
 
-/home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg/person.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg/person.js: /home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/msg/person.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sklir/ZHANGYan/ros_tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from tutorial_beginner/person.msg"
-	cd /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner && ../catkin_generated/env_cached.sh /home/sklir/python3_ws/rl_env/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/msg/person.msg -Itutorial_beginner:/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p tutorial_beginner -o /home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg
+/home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg/person.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg/person.js: /home/yan/ros_tutorial/src/tutorial_beginner/msg/person.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yan/ros_tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from tutorial_beginner/person.msg"
+	cd /home/yan/ros_tutorial/build/tutorial_beginner && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yan/ros_tutorial/src/tutorial_beginner/msg/person.msg -Itutorial_beginner:/home/yan/ros_tutorial/src/tutorial_beginner/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p tutorial_beginner -o /home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg
 
-/home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv/nums.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
-/home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv/nums.js: /home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/srv/nums.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sklir/ZHANGYan/ros_tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from tutorial_beginner/nums.srv"
-	cd /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner && ../catkin_generated/env_cached.sh /home/sklir/python3_ws/rl_env/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/srv/nums.srv -Itutorial_beginner:/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p tutorial_beginner -o /home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv
+/home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv/nums.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv/nums.js: /home/yan/ros_tutorial/src/tutorial_beginner/srv/nums.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yan/ros_tutorial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from tutorial_beginner/nums.srv"
+	cd /home/yan/ros_tutorial/build/tutorial_beginner && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/yan/ros_tutorial/src/tutorial_beginner/srv/nums.srv -Itutorial_beginner:/home/yan/ros_tutorial/src/tutorial_beginner/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p tutorial_beginner -o /home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv
 
 tutorial_beginner_generate_messages_nodejs: tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs
-tutorial_beginner_generate_messages_nodejs: /home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg/person.js
-tutorial_beginner_generate_messages_nodejs: /home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv/nums.js
+tutorial_beginner_generate_messages_nodejs: /home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/msg/person.js
+tutorial_beginner_generate_messages_nodejs: /home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner/srv/nums.js
 tutorial_beginner_generate_messages_nodejs: tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/build.make
 
 .PHONY : tutorial_beginner_generate_messages_nodejs
@@ -80,10 +80,10 @@ tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/buil
 .PHONY : tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/build
 
 tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/clean:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/yan/ros_tutorial/build/tutorial_beginner && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/clean
 
 tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/depend:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sklir/ZHANGYan/ros_tutorial/src /home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner /home/sklir/ZHANGYan/ros_tutorial/build /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner /home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yan/ros_tutorial/src /home/yan/ros_tutorial/src/tutorial_beginner /home/yan/ros_tutorial/build /home/yan/ros_tutorial/build/tutorial_beginner /home/yan/ros_tutorial/build/tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tutorial_beginner/CMakeFiles/tutorial_beginner_generate_messages_nodejs.dir/depend
 

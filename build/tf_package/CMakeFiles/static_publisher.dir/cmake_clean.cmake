@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/static_publisher.dir/src/static_publisher.cpp.o"
-  "/home/sklir/ZHANGYan/ros_tutorial/devel/lib/tf_package/static_publisher.pdb"
-  "/home/sklir/ZHANGYan/ros_tutorial/devel/lib/tf_package/static_publisher"
+  "/home/yan/ros_tutorial/devel/lib/tf_package/static_publisher.pdb"
+  "/home/yan/ros_tutorial/devel/lib/tf_package/static_publisher"
 )
 
 # Per-language clean rules from dependency scanning.

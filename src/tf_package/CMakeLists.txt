@@ -140,7 +140,7 @@ include_directories(
 # add_executable(${PROJECT_NAME}_node src/tf_package_node.cpp)
 add_executable(static_publisher src/static_publisher.cpp)
 add_executable(static_subscriber src/static_subscriber.cpp)
-add_executable(dynamic_publisher src/dynamic_publisher.cpp)
+# add_executable(dynamic_publisher src/dynamic_publisher.cpp)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -158,9 +158,9 @@ target_link_libraries(static_publisher
 target_link_libraries(static_subscriber
   ${catkin_LIBRARIES}
 )
-target_link_libraries(dynamic_publisher
-  ${catkin_LIBRARIES}
-)
+# target_link_libraries(dynamic_publisher
+#   ${catkin_LIBRARIES}
+# )
 #############
 ## Install ##
 #############

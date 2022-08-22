@@ -1,0 +1,8 @@
+prefix=/home/yan/ros_tutorial/devel
+
+Name: urdf_package
+Description: Description of urdf_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

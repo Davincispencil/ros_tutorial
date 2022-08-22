@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sklir/ZHANGYan/ros_tutorial/src
+CMAKE_SOURCE_DIR = /home/yan/ros_tutorial/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sklir/ZHANGYan/ros_tutorial/build
+CMAKE_BINARY_DIR = /home/yan/ros_tutorial/build
 
 # Utility rule file for dynamic_reconfigure_gencfg.
 
@@ -63,10 +63,10 @@ dynamic_config/CMakeFiles/dynamic_reconfigure_gencfg.dir/build: dynamic_reconfig
 .PHONY : dynamic_config/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 
 dynamic_config/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build/dynamic_config && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
+	cd /home/yan/ros_tutorial/build/dynamic_config && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
 .PHONY : dynamic_config/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 
 dynamic_config/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sklir/ZHANGYan/ros_tutorial/src /home/sklir/ZHANGYan/ros_tutorial/src/dynamic_config /home/sklir/ZHANGYan/ros_tutorial/build /home/sklir/ZHANGYan/ros_tutorial/build/dynamic_config /home/sklir/ZHANGYan/ros_tutorial/build/dynamic_config/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yan/ros_tutorial/src /home/yan/ros_tutorial/src/dynamic_config /home/yan/ros_tutorial/build /home/yan/ros_tutorial/build/dynamic_config /home/yan/ros_tutorial/build/dynamic_config/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dynamic_config/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 

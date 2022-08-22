@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "tf_package"
-PROJECT_SPACE_DIR = "/home/sklir/ZHANGYan/ros_tutorial/devel"
+PROJECT_SPACE_DIR = "/home/yan/ros_tutorial/devel"
 PROJECT_VERSION = "0.0.0"

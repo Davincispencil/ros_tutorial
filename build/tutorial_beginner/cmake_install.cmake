@@ -1,8 +1,8 @@
-# Install script for directory: /home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner
+# Install script for directory: /home/yan/ros_tutorial/src/tutorial_beginner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sklir/ZHANGYan/ros_tutorial/install")
+  set(CMAKE_INSTALL_PREFIX "/home/yan/ros_tutorial/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,81 +33,81 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner/msg" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/msg/person.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner/msg" TYPE FILE FILES "/home/yan/ros_tutorial/src/tutorial_beginner/msg/person.msg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner/srv" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/srv/nums.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner/srv" TYPE FILE FILES "/home/yan/ros_tutorial/src/tutorial_beginner/srv/nums.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner/cmake" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginner-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner/cmake" TYPE FILE FILES "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginner-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/sklir/ZHANGYan/ros_tutorial/devel/include/tutorial_beginner")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yan/ros_tutorial/devel/include/tutorial_beginner")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/sklir/ZHANGYan/ros_tutorial/devel/share/roseus/ros/tutorial_beginner")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/yan/ros_tutorial/devel/share/roseus/ros/tutorial_beginner")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/sklir/ZHANGYan/ros_tutorial/devel/share/common-lisp/ros/tutorial_beginner")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/yan/ros_tutorial/devel/share/common-lisp/ros/tutorial_beginner")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/sklir/ZHANGYan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/yan/ros_tutorial/devel/share/gennodejs/ros/tutorial_beginner")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/home/sklir/python3_ws/rl_env/bin/python" -m compileall "/home/sklir/ZHANGYan/ros_tutorial/devel/lib/python3/dist-packages/tutorial_beginner")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/yan/ros_tutorial/devel/lib/python2.7/dist-packages/tutorial_beginner")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/sklir/ZHANGYan/ros_tutorial/devel/lib/python3/dist-packages/tutorial_beginner")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/yan/ros_tutorial/devel/lib/python2.7/dist-packages/tutorial_beginner")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginner.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginner.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner/cmake" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginner-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner/cmake" TYPE FILE FILES "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginner-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner/cmake" TYPE FILE FILES
-    "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginnerConfig.cmake"
-    "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginnerConfig-version.cmake"
+    "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginnerConfig.cmake"
+    "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/tutorial_beginnerConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner" TYPE FILE FILES "/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tutorial_beginner" TYPE FILE FILES "/home/yan/ros_tutorial/src/tutorial_beginner/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/publisher_p.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/publisher_p.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/subscriber_p.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/subscriber_p.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/publisher_person_p.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/publisher_person_p.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/subscriber_person_p.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/subscriber_person_p.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/server_p.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/server_p.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/sklir/ZHANGYan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/client_p.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tutorial_beginner" TYPE PROGRAM FILES "/home/yan/ros_tutorial/build/tutorial_beginner/catkin_generated/installspace/client_p.py")
 endif()
 

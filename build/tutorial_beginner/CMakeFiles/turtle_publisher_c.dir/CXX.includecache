@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/turtle_publisher_c.cpp
+/home/yan/ros_tutorial/src/tutorial_beginner/src/turtle_publisher_c.cpp
 ros/ros.h
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/ros/ros.h
+/home/yan/ros_tutorial/src/tutorial_beginner/src/ros/ros.h
 geometry_msgs/Twist.h
-/home/sklir/ZHANGYan/ros_tutorial/src/tutorial_beginner/src/geometry_msgs/Twist.h
+/home/yan/ros_tutorial/src/tutorial_beginner/src/geometry_msgs/Twist.h
 
 /opt/ros/kinetic/include/geometry_msgs/Twist.h
 string

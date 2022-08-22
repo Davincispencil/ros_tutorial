@@ -1,0 +1,13 @@
+<launch>
+    <param name="robot_description" command="$(find xacro)/xacro $(find urdf_package)/urdf/xacro/myrobot.urdf.xacro" />
+
+    <node pkg="rviz" type="rviz" name="rviz_test" args="-d $(find urdf_package)/config/car.rviz"/>
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" />
+
+    <node pkg="arbotix_python" type="arbotix_driver" name="arbotix" output="screen">
+        <rosparam command="load" file="$(find urdf_package)/config/controller.yaml"/>
+        <param name="sim" value="true"/>
+    </node>
+</launch>

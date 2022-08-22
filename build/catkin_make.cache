@@ -1,2 +1,2 @@
-dynamic_config:meta_package:plugin:test_launch:tf_package:tutorial_advanced:tutorial_beginner
--DCATKIN_DEVEL_PREFIX=/home/sklir/ZHANGYan/ros_tutorial/devel -DCMAKE_INSTALL_PREFIX=/home/sklir/ZHANGYan/ros_tutorial/install -G Unix Makefiles
+dynamic_config:meta_package:plugin:tf_package:tutorial_advanced:tutorial_beginner:urdf_gazebo:urdf_package
+-DCATKIN_DEVEL_PREFIX=/home/yan/ros_tutorial/devel -DCMAKE_INSTALL_PREFIX=/home/yan/ros_tutorial/install -G Unix Makefiles

@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/include/plugin/dbx_base.h
+/home/yan/ros_tutorial/src/plugin/include/plugin/dbx_base.h
 
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/include/plugin/dbx_plugins.h
+/home/yan/ros_tutorial/src/plugin/include/plugin/dbx_plugins.h
 plugin/dbx_base.h
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/include/plugin/plugin/dbx_base.h
+/home/yan/ros_tutorial/src/plugin/include/plugin/plugin/dbx_base.h
 
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/src/plus.cpp
+/home/yan/ros_tutorial/src/plugin/src/plus.cpp
 pluginlib/class_list_macros.h
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/src/pluginlib/class_list_macros.h
+/home/yan/ros_tutorial/src/plugin/src/pluginlib/class_list_macros.h
 plugin/dbx_base.h
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/src/plugin/dbx_base.h
+/home/yan/ros_tutorial/src/plugin/src/plugin/dbx_base.h
 plugin/dbx_plugins.h
-/home/sklir/ZHANGYan/ros_tutorial/src/plugin/src/plugin/dbx_plugins.h
+/home/yan/ros_tutorial/src/plugin/src/plugin/dbx_plugins.h
 
 /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 boost/bind.hpp

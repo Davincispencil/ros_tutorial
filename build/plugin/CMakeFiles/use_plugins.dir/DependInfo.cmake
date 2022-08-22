@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sklir/ZHANGYan/ros_tutorial/src/plugin/src/use_plugins.cpp" "/home/sklir/ZHANGYan/ros_tutorial/build/plugin/CMakeFiles/use_plugins.dir/src/use_plugins.cpp.o"
+  "/home/yan/ros_tutorial/src/plugin/src/use_plugins.cpp" "/home/yan/ros_tutorial/build/plugin/CMakeFiles/use_plugins.dir/src/use_plugins.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/sklir/ZHANGYan/ros_tutorial/src/plugin/include"
+  "/home/yan/ros_tutorial/src/plugin/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

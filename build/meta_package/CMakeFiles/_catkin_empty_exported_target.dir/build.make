@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sklir/ZHANGYan/ros_tutorial/src
+CMAKE_SOURCE_DIR = /home/yan/ros_tutorial/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sklir/ZHANGYan/ros_tutorial/build
+CMAKE_BINARY_DIR = /home/yan/ros_tutorial/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ meta_package/CMakeFiles/_catkin_empty_exported_target.dir/build: _catkin_empty_e
 .PHONY : meta_package/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 meta_package/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build/meta_package && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/yan/ros_tutorial/build/meta_package && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : meta_package/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 meta_package/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/sklir/ZHANGYan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sklir/ZHANGYan/ros_tutorial/src /home/sklir/ZHANGYan/ros_tutorial/src/meta_package /home/sklir/ZHANGYan/ros_tutorial/build /home/sklir/ZHANGYan/ros_tutorial/build/meta_package /home/sklir/ZHANGYan/ros_tutorial/build/meta_package/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yan/ros_tutorial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yan/ros_tutorial/src /home/yan/ros_tutorial/src/meta_package /home/yan/ros_tutorial/build /home/yan/ros_tutorial/build/meta_package /home/yan/ros_tutorial/build/meta_package/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : meta_package/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

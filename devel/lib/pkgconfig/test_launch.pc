@@ -1,8 +1,0 @@
-prefix=/home/sklir/ZHANGYan/ros_tutorial/devel
-
-Name: test_launch
-Description: Description of test_launch
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/sklir/ZHANGYan/ros_tutorial/devel/lib 
-Requires: 
